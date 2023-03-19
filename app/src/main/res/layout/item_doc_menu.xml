@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/item_doc_back"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/doc" />
+
+    <TextView
+        android:id="@+id/nom_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:padding="7dp"
+        android:text="Cedula de Ciudadania"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:gravity="center_horizontal"
+        app:icon="@drawable/editar"
+        app:iconGravity="textTop"
+        app:iconPadding="1dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:layout_weight="1"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        app:icon="@drawable/delete"
+        app:iconGravity="textTop"
+        app:iconPadding="1dp"
+        app:iconSize="20dp" />
+</LinearLayout>
